@@ -1,0 +1,130 @@
+.navbar {
+  background-color: red;
+  position: relative;
+}
+
+.navbar .navbar-top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60px auto 260px;
+      grid-template-columns: 60px auto 260px;
+  padding: 7px 2%;
+  position: fixed;
+  width: 100vw;
+}
+
+.navbar .navbar-top .navbar-icon {
+  cursor: pointer;
+  height: 42px;
+  position: relative;
+  width: 42px;
+  z-index: 100;
+}
+
+.navbar .navbar-top .navbar-icon .bar {
+  background-color: #228b22;
+  height: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar .navbar-top .navbar-icon .bar1 {
+  top: 0;
+  -webkit-transition: 0.7s top ease-in-out, 0.7s background-color ease-in-out, 0.7s -webkit-transform ease-in-out;
+  transition: 0.7s top ease-in-out, 0.7s background-color ease-in-out, 0.7s -webkit-transform ease-in-out;
+  transition: 0.7s transform ease-in-out, 0.7s top ease-in-out, 0.7s background-color ease-in-out;
+  transition: 0.7s transform ease-in-out, 0.7s top ease-in-out, 0.7s background-color ease-in-out, 0.7s -webkit-transform ease-in-out;
+}
+
+.navbar .navbar-top .navbar-icon .bar2 {
+  top: 17px;
+  width: 100%;
+  -webkit-transition: 0.7s width ease-in-out, 0.7s background-color ease-in-out;
+  transition: 0.7s width ease-in-out, 0.7s background-color ease-in-out;
+}
+
+.navbar .navbar-top .navbar-icon .bar3 {
+  top: 32px;
+  -webkit-transition: 0.7s top ease-in-out, 0.7s background-color ease-in-out, 0.7s -webkit-transform ease-in-out;
+  transition: 0.7s top ease-in-out, 0.7s background-color ease-in-out, 0.7s -webkit-transform ease-in-out;
+  transition: 0.7s transform ease-in-out, 0.7s top ease-in-out, 0.7s background-color ease-in-out;
+  transition: 0.7s transform ease-in-out, 0.7s top ease-in-out, 0.7s background-color ease-in-out, 0.7s -webkit-transform ease-in-out;
+}
+
+.navbar .navbar-top .navbar-icon .bar1-active {
+  background-color: #f2f4f3;
+  top: 21px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.navbar .navbar-top .navbar-icon .bar2-active {
+  background-color: #f2f4f3;
+  width: 0;
+}
+
+.navbar .navbar-top .navbar-icon .bar3-active {
+  background-color: #f2f4f3;
+  top: 21px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.navbar .navbar-top .navbar-sign-link {
+  font-size: 21px;
+  z-index: 100;
+  -webkit-transition: 0.7s color ease-in-out;
+  transition: 0.7s color ease-in-out;
+}
+
+.navbar .navbar-top .navbar-sign-link i {
+  color: #6666ff;
+  font-size: 42px;
+  padding-right: 7px;
+  -webkit-transition: 0.7s color ease-in-out;
+  transition: 0.7s color ease-in-out;
+}
+
+.navbar .navbar-top .nav-sign-link-active {
+  color: #f2f4f3;
+}
+
+.navbar .navbar-top .nav-sign-link-active i {
+  color: #228b22;
+}
+
+.navbar .navbar-links {
+  background-color: #6666ff;
+  border-right: 3px solid #228b22;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  left: -160px;
+  padding-top: 70px;
+  position: fixed;
+  top: 0;
+  width: 160px;
+  -webkit-transition: 0.7s left ease-in-out;
+  transition: 0.7s left ease-in-out;
+}
+
+.navbar .navbar-links .navbar-link {
+  color: #f2f4f3;
+  display: inline-block;
+  font-size: 21px;
+  margin: 0 0 7px 14%;
+  -webkit-transition: 0.3s color ease-in-out;
+  transition: 0.3s color ease-in-out;
+}
+
+.navbar .navbar-links .navbar-link:hover {
+  color: #228b22;
+}
+
+.navbar .navbar-links-active {
+  left: 0;
+}
+/*# sourceMappingURL=style.css.map */

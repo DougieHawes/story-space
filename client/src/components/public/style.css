@@ -1,0 +1,81 @@
+.landing {
+  padding-top: 21vh;
+  text-align: center;
+}
+
+.landing .landing-title {
+  border-right: 3px solid #6666ff;
+  display: inline-block;
+  font-size: 70px;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-animation: typeEffect 2.1s steps(42, end), blinkEffect 0.75s step-end infinite;
+          animation: typeEffect 2.1s steps(42, end), blinkEffect 0.75s step-end infinite;
+}
+
+.landing .landing-subtitle {
+  font-size: 42px;
+}
+
+@-webkit-keyframes typeEffect {
+  from {
+    width: 0;
+  }
+  to {
+    width: 42%;
+  }
+}
+
+@keyframes typeEffect {
+  from {
+    width: 0;
+  }
+  to {
+    width: 42%;
+  }
+}
+
+@-webkit-keyframes blinkEffect {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #6666ff;
+  }
+}
+
+@keyframes blinkEffect {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #6666ff;
+  }
+}
+
+.landing .landing-links {
+  margin-top: 140px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.landing .landing-links .landing-link {
+  color: #6666ff;
+  cursor: pointer;
+  font-size: 21px;
+  margin: 0 21px;
+}
+
+.signup .form .input,
+.signin .form .input {
+  margin-bottom: 14px;
+}
+
+.signup .sign-link,
+.signin .sign-link {
+  margin-bottom: 14px;
+}
+/*# sourceMappingURL=style.css.map */
